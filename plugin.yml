@@ -1,0 +1,5 @@
+name: NoBanPE
+main: NoBanPE
+version: v1
+api: [3.0.0-ALPHA12]
+description: prevents certain players from getting banned.
