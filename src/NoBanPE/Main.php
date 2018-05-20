@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener{
         if($m[0] == "/"){
 			$c = substr($e[0], 1);
 			if(in_array($c, $this->cmds)){
-				foreach($this->getConfig()->get("Untouchable") as $unb){
+				foreach($this->getConfig()->get("protected") as $unb){
 					if($unb == $e[1]){
 						$p->sendMessage(TextFormat::RED . "You can't ban that player!");
 						$ev->setCancelled(true);
