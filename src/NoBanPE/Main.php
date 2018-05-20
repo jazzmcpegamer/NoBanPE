@@ -1,5 +1,6 @@
 <?php
 namespace NoBanPE;
+
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
 use pocketmine\plugin\PluginBase;
