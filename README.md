@@ -1,2 +1,2 @@
 # NoBanPE
-A simple pocketmine plugin that blocks certain players from getting banned.
+A simple pocketmine plugin that prevents certain players from getting banned.
