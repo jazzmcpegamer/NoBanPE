@@ -1,5 +1,5 @@
 <?php
-namespace NoBanPE;
+namespace Main;
 
 use pocketmine\command\CommandSender;
 use pocketmine\command\Command;
