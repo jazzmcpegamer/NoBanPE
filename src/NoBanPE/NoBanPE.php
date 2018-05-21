@@ -8,7 +8,7 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerCommandPreprocessEvent;
 use pocketmine\utils\TextFormat;
 
-class Main extends PluginBase implements Listener{
+class NoBanPE extends PluginBase implements Listener{
     public $cmds = ["ban", "ban-ip", "bancid", "bancidbyname", "banipbyname"];
     
     public function onEnable(){
